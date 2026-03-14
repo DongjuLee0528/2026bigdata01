@@ -1,10 +1,4 @@
-# v0.1
-scores = [100, 97, 88, 91]
-hap, count = 0, 0
-
-for score in scores:
-	hap = hap + score
-	count = count + 1
-
-average = hap / count
+# v0.2
+scores = [100, 87, 97, 82]
+average = sum(scores) / len(scores)
 print(average)
