@@ -1,8 +1,15 @@
 def entrance_fee(ages: list[int]) -> int:
     """
-    calculate the admission fee of the amusement park
-    :param ages: list of ages
-    :return: total entry fee
+    Calculate the total admission fee for an amusement park based on ages.
+
+    :param ages: list[int] - list of visitor ages
+    :return: int - total admission fee
+
+    Rules:
+    - Age < 3: free
+    - Age 3~12: 5000
+    - Age 13~64: 10000
+    - Age 65+: 7000
     """
     kid, adult, senior = 5000, 10000, 7000
     total_fee = 0
