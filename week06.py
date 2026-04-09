@@ -11,6 +11,7 @@ l1 = [1,2,3]
 array01 = np.array(l1)
 
 print(l1)
+array08 = np.random.random((2,3,3))
 print(array01)
 
 array02 = np.arange(1,10,2)
@@ -31,3 +32,6 @@ print(array06)
 array07 = np.linspace(0, 10, 3)
 print(array07)
 
+
+print(array08.shape, array08.dtype ,array08.ndim, array01.size)
+print(array08.T)
