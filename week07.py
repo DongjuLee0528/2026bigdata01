@@ -6,7 +6,7 @@ import random
 #print(l1)
 #print(array01)
 
-array02 = np.arange(10)
+array02 = np.arange(1, 10)
 print(array02)
 
 #array03 = np.ones((2, 4), dtype=int)
@@ -31,3 +31,4 @@ for item in l2:
 print(l3)
 # 4)넘파이 배열 주요 통계함수
 print(np.mean(array02))
+print(np.median(array02))
