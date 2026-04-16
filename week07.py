@@ -15,7 +15,7 @@ import random
 
 l2 = list()
 array04 = np.array(l2)
-print(array04 * 10)
+print(array04 > 5)
 #array04 = np.random.rand(2, 3)
 #print(array04)
 #print(array04.transpose())
