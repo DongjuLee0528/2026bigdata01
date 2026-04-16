@@ -32,3 +32,4 @@ print(l3)
 # 4)넘파이 배열 주요 통계함수
 print(np.mean(array02))
 print(np.median(array02))
+print(np.max(array02))
