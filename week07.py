@@ -33,3 +33,7 @@ print(l3)
 print(np.mean(array02))
 print(np.median(array02))
 print(np.max(array02))
+print(np.min(array02))
+print(np.var(array02))
+print(np.std(array02))
+
