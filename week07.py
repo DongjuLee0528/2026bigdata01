@@ -1,16 +1,31 @@
 import numpy as np
+import random
+# l1 = [9,'짬뽕',3.7, [1,2,3]]
+#l1 = [9 ,'짬뽕', 3.7]
+#array01 = np.array(l1)
+#print(l1)
+#print(array01)
 
-# l1 = [9, '짬뽕', 3.7, [1, 2, 3]]  # 정수, 문자열, 실수, 리스트
-l1 = [9, '짬뽕', 3.7]  # 정수, 문자열, 실수
+#array02 = np.arange(10)
+#print(array02)
 
-array01 = np.array(l1)
+#array03 = np.ones((2, 4), dtype=int)
+#print(array03)
+#print(array03.T)
 
-print(l1)
-print(array01)
+l2 = list()
+array04 = np.array(l2)
+print(array04 * 10)
+#array04 = np.random.rand(2, 3)
+#print(array04)
+#print(array04.transpose())
+l3 =[]
 
-array02 = np.arange(10)
-print(array02)
+array05 = array04.copy()
+for i in range(3):
+    l2.append(random.random())
+print(l2)
 
-array03 = np.ones(shape=(2, 4), dtype=int)
-print(array03)
-print(array03.T)
+for item in l2:
+    l3.append(item * 10)
+print(l3)
