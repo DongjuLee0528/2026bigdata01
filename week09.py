@@ -13,6 +13,7 @@ df_new = (
         'value': 'val'
     })
     .query('val >= 5')
+    .sort_values('val', ascending=False)
 )
 
 print(df_new)
