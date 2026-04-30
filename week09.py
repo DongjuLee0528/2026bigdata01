@@ -9,8 +9,9 @@ df = pd.DataFrame(
     },
     index=[1, 2, 3]
 )
+
 print(df)
-#df_new = df.iloc[0:3] =df_new = df.iloc[:]
-#df_new = df.iloc[1:3]
-df_new = df.iloc[1:3,2:4]
+
+df_new = df.loc[df['국'] > 5, ['영','화']]
+
 print(df_new)
