@@ -9,9 +9,9 @@ df = pd.DataFrame(
     },
     index=[1, 2, 3]
 )
-
 print(df)
-
-df_new = df.loc[df['국'] > 5, ['영','화']]
-
-print(df_new)
+print(df.iat[1,2])
+print(df.at[2,'수'])
+print(df.sample(frac=0.33))
+print(df.nlargest(2,'화'))
+print(df.tail(2))
