@@ -1,8 +1,5 @@
 import pandas as pd
 
-def square(x):
-    return x * x
-
 df = pd.DataFrame(
     data={
         '국': [1, 6, 7],
@@ -13,4 +10,4 @@ df = pd.DataFrame(
     index=[1, 2, 3]
 )
 print(df)
-print(df.apply(square))
+print(df.apply(lambda n: n*n))
