@@ -1,5 +1,8 @@
 import pandas as pd
 
+def square(x):
+    return x * x
+
 df = pd.DataFrame(
     data={
         '국': [1, 6, 7],
@@ -10,9 +13,4 @@ df = pd.DataFrame(
     index=[1, 2, 3]
 )
 print(df)
-#print(df.describe())
-# print(df.info())
-# print(df['국'].value_counts() )
-# print(df.shape)
-# print(df['국'].nunique())
-# print(df.dtypes)
+print(df.apply(square))
